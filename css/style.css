@@ -22,6 +22,33 @@ body {
 	font-size: 16px;
 }
 
+nav{
+    background-color: rgb(37, 9, 37);
+    color: #ffffff;
+    height: 65px;
+    font-size: 27px;
+    display:flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li button{
+    padding: 5px;
+    margin: 8px;
+}
+
+nav li button:hover{
+    background-color: rgb(226, 166, 226);
+    border:2px solid rgb(138, 55, 55);
+}
+
 .container {
 	display: flex;
 	justify-content: center;
